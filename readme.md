@@ -1,0 +1,27 @@
+user:
+  is_admin: true
+  name: Богдан
+  age: 30
+  position: DevOps
+  skills:
+    - name: CI/CD
+      level: 5
+      description: |
+        Проектирование и сопровождение полного цикла непрерывной интеграции
+        и доставки на базе GitLab CI/CD и GitHub Actions.
+        Опыт построения многоэтапных пайплайнов: lint, unit-тесты, сборка
+        Docker-образов, сканирование уязвимостей (Trivy), публикация в registry
+        и автоматический деплой в staging/production окружения.
+        Использование кэширования зависимостей, матричных сборок и
+        environment-специфичных переменных для оптимизации времени сборки.
+        Интеграция с Vault для безопасного управления секретами в пайплайнах.
+  residence:
+    country: Россия
+    city: Екатеринбург
+    street: Попова
+    house_number: 777
+    apartment_number: 111
+  pets:
+    - name: Кнопа
+      breed: Собака
+      can_meow: false
